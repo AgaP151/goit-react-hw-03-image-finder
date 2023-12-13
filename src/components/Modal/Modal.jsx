@@ -36,7 +36,7 @@ export class Modal extends Component {
     return createPortal(
       <ModalOverlay onClick={this.onkBackdropClick}>
         <ModalWindow>
-          <ModalPic src={this.props.src} alt={this.props.alt}/>
+          <ModalPic src={this.props.src} alt={this.props.alt} />
           <ModalDescr>{this.props.alt}</ModalDescr>
         </ModalWindow>
       </ModalOverlay>,

@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types';
-import { ListItem } from './ImageGallery.styled';
+import { List } from './ImageGallery.styled';
 import { ImageGalleryItem } from '../ImageGalerryItem/ImageGalleryItem';
 
 export const ImageGallery = ({ pics, showModal }) => {
   return (
-    
-    <ListItem>
-      <div>
+    <List>
       {pics.map(pic => {
         // console.log(pic);
         return (
@@ -19,10 +17,8 @@ export const ImageGallery = ({ pics, showModal }) => {
           />
         );
       })}
-      </div>
-    </ListItem>
-    
-  )
+    </List>
+  );
 };
 
 ImageGallery.propTypes = {

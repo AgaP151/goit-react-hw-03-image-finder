@@ -1,18 +1,17 @@
 import React, { Component }  from 'react';
-// import ReactDOM from 'react-dom';
+
 import Notiflix from 'notiflix';
 
 import { fetchData, notifySettings } from './Fetch';
 
 
 import { Container } from './App.styled';
-//import { StartText } from './StartText/StartText';
 import { Searchbar } from './Searchbar/Searchbar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Loader } from './Loader/Loader';
 import { Modal } from './Modal/Modal';
 import { Btn } from './Button/Button';
-// import DefaultPic from '../images/defaultPic.jpg';
+
 
 export class App extends Component {
   state = {
@@ -102,7 +101,6 @@ export class App extends Component {
         <>
           <Searchbar onSubmit={this.onSubmit} />
   
-      {/* // {this.state.picsArr.length === 0 && <StartText />} */}
   
           <Container>
             <ImageGallery

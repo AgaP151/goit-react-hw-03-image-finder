@@ -6,7 +6,6 @@ export const BtnElement = styled.button`
   align-items: center;
   border-radius: 8px;
   padding: 12px 16px;
-  margin-left: 10px;
   border: none;
   font-size: 16px;
   background-color: ${props =>

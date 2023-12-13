@@ -8,15 +8,12 @@ export const ImageGalleryItem = ({
   showModal,
 }) => {
   return (
-    
     <ListItem onClick={() => showModal(largeImageURL, tags)}>
       <div>
-       
-          <Pic src={webformatURL} alt={tags} loading="lazy" />
-          </div>
-      
+        <Pic src={webformatURL} alt={tags} loading="lazy" />
+      </div>
     </ListItem>
-    );
+  );
 };
 
 ImageGalleryItem.propTypes = {

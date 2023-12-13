@@ -19,7 +19,6 @@ export const Form = styled.form`
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  margin-left:
 `;
 
 export const Input = styled.input`
