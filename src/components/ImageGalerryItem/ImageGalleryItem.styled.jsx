@@ -7,6 +7,7 @@ export const ListItem = styled.li`
   overflow: hidden;
   transform: scale(1);
   transition-duration: 700ms;
+ 
 
   &:hover,
   &:focus {
@@ -15,8 +16,9 @@ export const ListItem = styled.li`
 `;
 
 export const Pic = styled.img`
+
   width: 100%;
   height: auto;
-  height: 280px;
+  // height: 280px;
   object-fit: cover;
 `;

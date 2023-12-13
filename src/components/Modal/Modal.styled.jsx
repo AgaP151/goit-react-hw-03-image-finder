@@ -15,7 +15,7 @@ export const ModalOverlay = styled.div`
 
 export const ModalWindow = styled.div`
   position: relative;
-  height: 500px;
+  height: auto;
   width: 60vw;
 `;
 
